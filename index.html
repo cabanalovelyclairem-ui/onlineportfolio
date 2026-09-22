@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio website" />
+  <title>Clairry | IT Student Portfolio</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <a href="#home" class="logo">Lovely Claire</a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <nav class="navbar" id="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#services">Services</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section class="home section" id="home">
+      <div class="home-img">
+        <!-- Replace assets/profile.jpg with your own photo -->
+        <div class="image-ring">
+          <img src="assets/profile.jpg" alt="Profile photo">
+        </div>
+      </div>
+
+      <div class="home-content">
+        
+        <h1>Hi, It's <span>Clairry</span></h1>
+
+        <h2>I'm a <span class="typing"></span><span class="cursor">|</span></h2>
+
+        <p>
+          I'm an IT student who loves to learn, code, create and fix the problems i probably caused
+
+        <div class="social-icons">
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <a href="#contact" class="btn">Say hi</a>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section cards-section" id="services">
+      <div class="section-heading">
+        <p>WHAT I DO</p>
+        <h2>My <span>Services</span></h2>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <i class="fa-solid fa-code"></i>
+          <h3>Web Development</h3>
+          <p>I create responsive websites while developing my skills in HTML, CSS and modern web technologies.</p>
+        </article>
+
+        <article class="card">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <h3>Student Projects</h3>
+          <p>I build school and personal projects to practice programming, databases, and web development.</p>
+        </article>
+
+        <article class="card">
+          <i class="fa-solid fa-palette"></i>
+          <h3>Technology Learning</h3>
+          <p>I continuously learn new tools, programming languages, frameworks, and IT concepts.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <p>WHAT I'M LEARNING</p>
+        <h2>My <span>Skills</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill"><div><span>Web Development</span><b>Learning</b></div><div class="bar"><span style="width:30%"></span></div></div>
+        <div class="skill"><div><span>Programming</span><b>Learning</b></div><div class="bar"><span style="width:40%"></span></div></div>
+        <div class="skill"><div><span>Database Management</span><b>Learning</b></div><div class="bar"><span style="width:50%"></span></div></div>
+        <div class="skill"><div><span>Networking</span><b>Learning</b></div><div class="bar"><span style="width:55%"></span></div></div>
+        <div class="skill"><div><span>UI/UX Basics</span><b>Learning</b></div><div class="bar"><span style="width:40%"></span></div></div>
+        <div class="skill"><div><span>Computer Troubleshooting</span><b>Learning</b></div><div class="bar"><span style="width:45%"></span></div></div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section timeline-section" id="education">
+      <div class="section-heading">
+        <p>MY BACKGROUND</p>
+        <h2><span>Education</span></h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="dot"></div>
+          <div class="timeline-content">
+            <span>2023 - Present</span>
+            <h3>Bachelor of Science in Information Technology</h3>
+            <p>Dalubhasaan ng Lungsod ng Lucena / College</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section cards-section" id="projects">
+      <div class="section-heading">
+        <p>MY SCHOOL & PERSONAL WORK</p>
+        <h2>My <span>Projects</span></h2>
+      </div>
+      <div class="cards">
+        <article class="card project-card"><span class="project-number">01</span><i class="fa-solid fa-laptop-code"></i><h3>Portfolio Website</h3><p>A responsive personal portfolio created to showcase my skills, school activities, projects, certificates, and achievements.</p><a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a></article>
+        <article class="card project-card"><span class="project-number">02</span><i class="fa-solid fa-database"></i><h3>Food Delivery Database</h3><p>A school database project using customers, restaurants, menu items, orders, and delivery riders to practice ER design.</p><a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a></article>
+        <article class="card project-card"><span class="project-number">03</span><i class="fa-solid fa-globe"></i><h3>Student Web Project</h3><p>A simple website created to practice frontend development, responsive layouts, navigation, and basic interaction.</p><a href="#" class="project-link">View Project <i class="fa-solid fa-arrow-right"></i></a></article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES -->
+    <section class="section cards-section" id="certificates">
+      <div class="section-heading"><p>MY LEARNING</p><h2>My <span>Certificates</span></h2></div>
+      <div class="cards">
+        <article class="card"><i class="fa-solid fa-certificate"></i><h3>Certificate of Completion</h3><p>Completing Introduction to Cybersecurity offered by Networking Academy through the Cisco Networking Academy Program</p><span class="Nov 28 2025">2025</span></article>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="section cards-section" id="achievements">
+      <div class="section-heading"><p>MY PROGRESS</p><h2>My <span>Achievements</span></h2></div>
+      <div class="cards">
+        <article class="card"><i class="fa-solid fa-user-graduate"></i><h3>IT Student</h3><p>Continuously studying Information Technology and developing my technical knowledge.</p></article>
+        <article class="card"><i class="fa-solid fa-laptop-code"></i><h3>Completed Projects</h3><p>Created school and personal projects involving programming, databases, web development, and networking.</p></article>
+        <article class="card"><i class="fa-solid fa-book-open"></i><h3>Continuous Learning</h3><p>Learning new technologies and improving my skills through practice, projects, and experience.</p></article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p>GET IN TOUCH</p>
+        <h2>Contact <span>Me</span></h2>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>Let's Connect.</h3>
+          <p>
+            Have a question school project or idea you'd like to discuss?
+            Send me a message and I'll get back to you.
+          </p>
+
+          <p><i class="fa-solid fa-envelope"></i> Lovelyclairecabana@email.com</p>
+          <p><i class="fa-solid fa-location-dot"></i> Philippines</p>
+        </div>
+
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Your Name" required>
+          <input type="email" id="email" placeholder="Your Email" required>
+          <input type="text" id="subject" placeholder="Subject" required>
+          <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+          <p id="formMessage"></p>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Lovely Claire. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
